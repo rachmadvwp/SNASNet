@@ -1,4 +1,4 @@
-# Neural Architecture Search for Spiking Neural Networks
+# Neural Architecture Search for Spiking Neural Networks (updated)
 Pytorch implementation code for [Neural Architecture Search for Spiking Neural Networks], ECCV 2022 (https://arxiv.org/abs/2201.10355)
 
 
@@ -21,6 +21,15 @@ conda activate SNASNet
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 pip install scipy
 ```
+
+### Check the availability of CUDA
+```
+python
+>>> import torch
+>>> torch.cuda.is_available()
+True
+```
+
 ### Spikingjelly Installation (ref: https://github.com/fangwei123456/spikingjelly)
 ```
 git clone https://github.com/fangwei123456/spikingjelly.git
