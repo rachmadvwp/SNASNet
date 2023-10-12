@@ -37,9 +37,9 @@ $ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c n
 
 ### Spikingjelly Installation (ref: https://github.com/fangwei123456/spikingjelly)
 ```
-git clone https://github.com/fangwei123456/spikingjelly.git
-cd spikingjelly
-python setup.py install
+$ git clone https://github.com/fangwei123456/spikingjelly.git
+$ cd spikingjelly
+$ python setup.py install
 ```
 
 ## Training and testing
