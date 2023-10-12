@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-from spikingjelly.clock_driven import functional, layer, surrogate, neuron
+### from spikingjelly.clock_driven import functional, layer, surrogate, neuron
+from spikingjelly.activation_based import functional, layer, surrogate, neuron
 
 
 class ScaleLayer(nn.Module):

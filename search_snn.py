@@ -9,7 +9,8 @@ import numpy as np
 import random
 from model_snn import SNASNet, find_best_neuroncell
 from utils import data_transforms
-from spikingjelly.clock_driven.functional import reset_net
+### from spikingjelly.clock_driven.functional import reset_net
+from spikingjelly.activation_based.functional import reset_net
 
 
 def main():
@@ -47,7 +48,8 @@ def main():
 
 
     if args.cnt_mat is None: # serach neuroncell if no predefined neuroncell
-        best_neuroncell = find_best_neuroncell(args, trainset)
+        ###debug###debug### best_neuroncell = find_best_neuroncell(args, trainset)
+        best_neuroncell = find_best_neuroncell(args, trainset).cuda()
     else:
         int_list = []
         for line in args.cnt_mat:
