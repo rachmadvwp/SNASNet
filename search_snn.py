@@ -9,7 +9,7 @@ import numpy as np
 import random
 from model_snn import SNASNet, find_best_neuroncell
 from utils import data_transforms
-### from spikingjelly.clock_driven.functional import reset_net
+### from spikingjelly.clock_driven.functional import reset_net 
 from spikingjelly.activation_based.functional import reset_net
 
 
