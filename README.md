@@ -58,7 +58,7 @@ Example) Architecture and the corresponding connection matrix
 *  Run the following command
 
 ```
-python search_snn.py  --exp_name 'cifar100_backward' --dataset 'cifar100'  --celltype 'backward' --batch_size 32 --num_search 5000 
+python3 search_snn.py  --exp_name 'cifar100_backward' --dataset 'cifar100'  --celltype 'backward' --batch_size 32 --num_search 5000 
 ```
 simple argument instruction
 
@@ -90,10 +90,10 @@ CIFAR100 architecture ``--cnt_mat 0302 0030 3003 0000``
 
 (3)  Run the following command
 ```
-python search_snn.py  --dataset 'cifar10' --cnt_mat 0303 0030 2002 0200 --savemodel_pth './savemodel/save_cifar10_bw.pth.tar'  --celltype 'backward' --second_avgpooling 4
+python3 search_snn.py  --dataset 'cifar10' --cnt_mat 0303 0030 2002 0200 --savemodel_pth './savemodel/save_cifar10_bw.pth.tar'  --celltype 'backward' --second_avgpooling 4
 ```
 ```
-python search_snn.py  --dataset 'cifar100' --cnt_mat 0302 0030 3003 0000 --savemodel_pth './savemodel/save_cifar100_bw.pth.tar'  --celltype 'backward'
+python3 search_snn.py  --dataset 'cifar100' --cnt_mat 0302 0030 3003 0000 --savemodel_pth './savemodel/save_cifar100_bw.pth.tar'  --celltype 'backward'
 ```
 
 ## Acknowledgement 
