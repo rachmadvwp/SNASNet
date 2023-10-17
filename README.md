@@ -33,6 +33,7 @@ If the result is False, then CUDA is not available.
 You can try this instead.
 ```
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install scipy
 ```
 
 ### Spikingjelly Installation (ref: https://github.com/fangwei123456/spikingjelly)
