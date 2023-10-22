@@ -1,4 +1,4 @@
-# Neural Architecture Search for Spiking Neural Networks (updated)
+# Neural Architecture Search for Spiking Neural Networks [updated]
 Pytorch implementation code for [Neural Architecture Search for Spiking Neural Networks], ECCV 2022 (https://arxiv.org/abs/2201.10355)
 
 
@@ -22,7 +22,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 pip install scipy
 ```
 
-### Check the availability of CUDA
+### [Updated] Check the availability of CUDA
 ```
 python3
 >>> import torch
@@ -30,7 +30,7 @@ python3
 True
 ```
 If the result is False, then CUDA is not available.
-You can try this instead.
+[Updated] You can try this instead.
 ```
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install scipy
